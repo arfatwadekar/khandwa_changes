@@ -1,0 +1,274 @@
+/* Mobile Responsive Desgin */
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  /* =======header */
+  .header .navbar a {
+    font-size: 1.5rem;
+  }
+  .header .logo img {
+    width: 70px;
+  }
+
+  /* ===================== Navbar */
+  .header .navbar {
+    padding: 0;
+  }
+  .navbar .first {
+    border-top: 2px solid var(--main-color);
+  }
+  /* ============= Card */
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .card img {
+    width: 100%;
+    height: 138px;
+  }
+
+  .card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+
+  .CardRow {
+    flex-direction: column;
+  }
+
+  /* ============= Home */
+  .home {
+    margin-top: 6rem;
+  }
+  .home h1 {
+    font-size: 5rem;
+    margin-bottom: 12px;
+  }
+  .home p {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  /* ======= Book Now */
+  .BookNowrow {
+    flex-direction: column;
+  }
+
+  .bookNowImg,
+  .form_container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form_grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ========== Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer-box {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .footer-box p {
+    font-size: 1.5rem;
+    color: #818181;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer-box h3 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+
+  .footer-box a,
+  .footer-box p {
+    font-size: 2rem;
+    color: #818181;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  /* ============= Testimonial */
+  .Tcontainer {
+    padding: 30px 0;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+  }
+
+  /* ============== heading */
+  .heading p {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--secondary-text-color);
+  }
+
+  .heading h2 {
+    font-size: 3rem;
+  }
+  /* ============== Navbar */
+
+  .header {
+    padding: 0 5%;
+  }
+}
+
+/* Tablet View Responsive */
+@media (max-width: 768px) {
+  /* =======header */
+  .header .navbar a {
+    font-size: 1.5rem;
+  }
+  .header .logo img {
+    width: 70px;
+  }
+  .header {
+    padding: 0 7%;
+  }
+
+  /* =============== Home */
+  .home {
+    margin-top: 6rem;
+  }
+
+  /* ===================== Navbar */
+  .header .navbar {
+    padding: 0;
+  }
+  .navbar .first {
+    border-top: 2px solid var(--main-color);
+  }
+
+  /* =============== Cars Card */
+  .card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+  }
+  .card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  /* =========== Header  */
+  #menu-btn {
+    display: block;
+  }
+
+  .header .navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .header .navbar a {
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  .header .navbar a:hover {
+    background-color: black;
+    color: white;
+  }
+  .header .navbar.active {
+    display: flex;
+  }
+
+  /* ========== Footer */
+  .footer {
+    padding: 3rem 2%;
+    background: rgb(225, 223, 223);
+    color: #f6f6f6;
+    border-top: 2px solid var(--main-color);
+  }
+
+  .footer-box a,
+  .footer-box p {
+    font-size: 2rem;
+    color: #818181;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  /* section padding */
+
+  section {
+    padding: 3rem 3%;
+  }
+}
+
+/* LapTop  */
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  /* =========== section padding */
+  section {
+    padding: 3rem 2%;
+  }
+
+  /* ============ header */
+  .header .navbar a {
+    font-size: 1.8rem;
+  }
+
+
+  /* ============Home */
+  .homeRow {
+    margin: 135px 0px;
+    padding: 29px;
+  }
+
+  /* ============ cards */
+  .card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 1.5rem;
+  }
+
+  /* ========== testimonial */
+  .testimonialCard p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  /* ============ footer */
+  .footer {
+    padding: 3rem 5%;
+    background: rgb(225, 223, 223);
+    color: #f6f6f6;
+    border-top: 2px solid var(--main-color);
+  }
+}
